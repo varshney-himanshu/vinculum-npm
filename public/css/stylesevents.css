@@ -1,0 +1,190 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  font-size: 100%;
+}
+
+  .header1 {
+    margin: 0 px;
+    background-color: #dcb5ff;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+
+  }
+  .header1 h1 {
+    font-family: monospace;
+    margin-top: 0;
+    font-size: 10em;
+    padding: 40px;
+    padding-top : 170px;
+    letter-spacing: 3px;
+    text-align: center;
+
+  }
+  *, div *, h1 *, a *,p *,span *{
+   font-family: 'Emilys Candy';
+ }
+ body{
+   background-image: url('trianglify.png');
+
+ }
+
+ .w3-white{
+   padding: 0.01em 16px;
+ }
+ .w3-container{
+   padding: 2vw 2vw 0 0;
+ }
+ .box {
+   font-family: fantasy;
+   text-align: center;
+   width: 25%;
+   left: 10%;
+   min-width: 200px;
+   display: block;
+   height: 40px;
+   position: relative;
+   border-radius: 5px;
+   background: linear-gradient(to right, #352020 35%, #da4545 100%);
+   /*margin-bottom: 40px;
+   padding: 15px 25px 0 40px;*/
+   color: darkslategray;
+   box-shadow: 1px 2px 1px -1px #777;
+   transition: background 200ms ease-in-out;
+   margin-bottom: 15px;
+ }
+
+ .shadow {
+   position: relative;
+ }
+ .shadow:before {
+   z-index: -1;
+   position: absolute;
+   content: "";
+   bottom: 13px;
+   right: 7px;
+   width: 75%;
+   top: 0;
+   box-shadow: 0 15px 10px #777;
+   -webkit-transform: rotate(4deg);
+           transform: rotate(4deg);
+   transition: all 150ms ease-in-out;
+ }
+
+ .box:hover {
+   background: linear-gradient(to right, #da4545 0%, #da4545 100%);
+ }
+
+ .shadow:hover::before {
+   -webkit-transform: rotate(0deg);
+           transform: rotate(0deg);
+   bottom: 20px;
+   z-index: -10;
+ }
+ .sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left:0;
+   background-color: #924f4f80;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+ }
+
+ .sidenav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #d1b790;
+   display: block;
+   transition: 0.3s;
+ }
+
+ .sidenav a:hover {
+   color: #f1f1f1;
+ }
+
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+ .type{
+   width: max-content;
+   width:-webkit-max-content;
+   width:-moz-max-content;
+   margin: -10% auto auto auto;
+   /*width: 52%;
+   margin: auto;
+   padding-left: 2%;
+   padding-right: 2%;*/
+ }
+ #resp_divstyle{
+   font-family: 'Emilys Candy';
+ }
+ .w3-hover-opacity:hover {
+     opacity: 1;
+ }
+ @media screen and (max-width: 450px){
+     #tour h2{
+         color:wheat;
+     }
+
+   #resp_divstyle{
+     width: 100%;
+   }
+   .type{
+       width: 100%;
+       margin-left:4% ;
+     font-size: 10px;
+
+   }
+   .type button{
+     margin-left: 2%;
+   }
+   #guidelines{
+       width:fit-content;
+       margin-left:40%;
+   }
+   #img_respstyle{
+     width: 100%;
+   }
+   #tour img{
+     max-height: 200px;
+   }
+ }
+ @media screen and (min-width: 451px){
+   body{
+       background-size:cover;
+   }
+   .header h1, #tour h2{
+       color:#820724;
+   }
+   #resp_divstyle{
+     width: 50%;
+   }
+   #tour img{
+     height: 300px;
+   }
+   #tour{
+       padding-top:10%;
+   }
+
+ }
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+ }
+ @media screen and (min-width: 550px) {
+   .game-holder{
+     height: auto;
+   }
+
+ }
