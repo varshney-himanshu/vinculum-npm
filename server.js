@@ -7,7 +7,7 @@ app.use('/public',express.static('public'));
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 
-
+ // comment dala maine
 app.get('/',(req,res)=>{
 	res.sendFile(__dirname + '/public/homepage.html');
 });
