@@ -1,4 +1,8 @@
 body{
+  background-image: url('../images/VnxC.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-color: #010101;*/
   box-sizing: border-box;
   margin: 0;
   text-align: center;
@@ -25,10 +29,6 @@ body{
   }
   *, div *, h1 *, a *,p *,span *{
    font-family: 'Emilys Candy';
- }
- body{
-   background-image: url('trianglify.png');
-
  }
 
  .w3-white{
