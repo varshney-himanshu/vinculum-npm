@@ -19,8 +19,11 @@ app.get('/events',(req,res)=>{
 app.get('/about',(req,res)=>{
      res.sendFile(__dirname + '/public/aboutus.html');
 });
-app.get('/appdetails',(req,res)=>{
+app.get('/appathonDetails',(req,res)=>{
     res.sendFile(__dirname + '/public/appathonDetails.html');
+});
+app.get('/registration_form',(req,res)=>{
+    res.sendFile(__dirname + '/public/registration_form.html');
 });
 
 app.listen(3000,()=>{

@@ -1,6 +1,9 @@
 body{
+  background-image: url('../images/VnxC.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
-  
+  box-sizing: border-box;
   text-align: center;
   font-size: 100%;
 }
