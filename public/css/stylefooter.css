@@ -1,13 +1,4 @@
-body {
-    display: block;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height: 100vh;
-    font: 16px Roboto, sans-serif;
-    background: #f9f9f9;
-}
+
 .social-media-icons{
    padding: 5px;
 }
