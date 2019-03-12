@@ -1,5 +1,5 @@
 body{
-  background-image: url('../images/VnxC.gif');
+  background-image: url('../images/abc.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   /*background-color: #010101;*/
@@ -8,7 +8,22 @@ body{
   text-align: center;
   font-size: 100%;
 }
-
+.head1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f1f1f1;
+}
+.para1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: left;
+}
+.a1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #309286;
+}
+.a2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #309286;
+}
   .header1 {
     margin: 0 px;
     background-color: #dcb5ff;
@@ -28,7 +43,7 @@ body{
 
   }
   *, div *, h1 *, a *,p *,span *{
-   font-family: 'Emilys Candy';
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .w3-white{

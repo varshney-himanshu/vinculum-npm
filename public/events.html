@@ -49,40 +49,72 @@
   </div>
   
     <h1 style="font-family:verdana; font-size: 150px ; color: #834c69;">EVENTS</h1>
-  <!-- <p class="w3-opacity w3-center"><i>Participate in the events</i></p> --><br>
+<br>
   <br>
   <div class="w3-row-padding w3-padding-32" style="margin: auto">
 
       <img src="public/images/Appathon.png" alt="Event Image" style="width:50%" class="w3-hover-opacity">
 
       <p><b>Appathon</b></p>
-      <p class="w3-opacity">14 Mar'19, 9:30am - 3:30pm</p>
-      <!-- <p>Instrumental competition<br> </p> -->
-      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/appdetails">Details</a></button>
-
+      <p>27 Mar'19, 9:00am - 3:30pm</p>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal0').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/registration_form">Register</a></button>
     </div>
     <div class="w3-row-padding w3-padding-32" style="margin: auto">
       <img src="public/images/Codecoaster.001.png" alt="Event Image" style="width:50%" class="w3-hover-opacity">
       <p><b>Codecoaster</b></p>
-      <p class="w3-opacity">14 Mar'19, 11:30am - 1:00pm</p>
+      <p>27 Mar'19, 12:30am - 2:30pm</p>
       <!-- <p>Event Description</p> -->
-      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/registration_form">Details</a></button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal1').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/registration_form">Register</a></button>
     </div>
     <div class="w3-row-padding w3-padding-32" style="margin: auto">
       <img src="public/images/doodle2.png" alt="Event Image" style="width:50%" class="w3-hover-opacity">
       <p><b>Let-a-doodle-do!</b></p>
-      <p class="w3-opacity">14 Mar'19</p>
+      <p>Online Event</p>
       <!-- <p>Event Description</p> -->
-      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal4').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal2').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/registration_form">Register</a></button>
     </div>
     <div class="w3-row-padding w3-padding-32" style="margin: auto">
       <img src="public/images/Technobuzz.001.png" alt="Event Image" style="width:50%" class="w3-hover-opacity">
       <p><b>Technobuzz</b></p>
-      <p class="w3-opacity">27 Mar'19</p>
+      <p>27 Mar'19, 1:30 - 3:30pm</p>
       <!-- <p>Event Description</p> -->
-      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal4').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('EventModal3').style.display='block'">Details</button>
+      <button class="w3-button w3-black w3-margin-bottom" onclick=""><a href="/registration_form">Register</a></button>
     </div>
 
+    <div id="EventModal0" class="w3-modal" >
+      <div class="w3-modal-content w3-animate-top w3-card-4" style="margin-top: -3.5%">
+        <div>
+          <header class="w3-container w3-slategray w3-center w3-padding-16" style="background:#309286"> 
+            <span onclick="document.getElementById('EventModal0').style.display='none'" 
+              class="w3-button w3-slategray w3-large w3-display-topright">X</span>
+            <h2 class="head1">Guidelines:</h2>
+          </header>
+          <div>
+              <p class="para1">
+                <br>
+                  <h3 class="a1"><strong>Deadline for Registration: 24th March 2019</strong></h3>
+                <h3 class="a2"><strong>General Guidelines:</strong></h3>
+                ●   Both online and offline registrations will be there.<br>
+                ●   The software that is to be used for software development is Android Studio<br>
+                ●   First round will be Idea Submission round on the basis of which will be marked.<br>
+                ●   Themes will be given on the spot.<br>
+                ●   Second round will be application development round.<br>
+                ●   Third round will be presentation round where your team has to prepare a 5 minutes presentation about your application and prototype.<br>
+                ●   Winners will be awarded with cash prizes.<br> 
+                ●   Entry through valid college i-cards.<br> 
+
+                 <br>
+                <strong>Team Size :-</strong><br>
+                Should be strictly 3 to 4.<br> <br><br>
+           
+          </div>
+        </div>
+      </div>
+    </div>
   
 
   <div class="social-media-icons">
