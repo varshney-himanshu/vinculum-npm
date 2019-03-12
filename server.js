@@ -16,15 +16,16 @@ app.get('/events',(req,res)=>{
      res.sendFile(__dirname + '/public/events.html');
 });
 
-app.get('/about',(req,res)=>{
-     res.sendFile(__dirname + '/public/aboutus.html');
+app.get('/contact',(req,res)=>{
+     res.sendFile(__dirname + '/public/contactus.html');
 });
 app.get('/appathonDetails',(req,res)=>{
     res.sendFile(__dirname + '/public/appathonDetails.html');
 });
-app.get('/registration_form',(req,res)=>{
-    res.sendFile(__dirname + '/public/registration_form.html');
+app.get('/team',(req,res)=>{
+    res.sendFile(__dirname + '/public/Team.html');
 });
+
 
 app.listen(3000,()=>{
     console.log('server is running at port 3000');
