@@ -1,4 +1,5 @@
 body{
+  background-color: black;
   /* background-repeat: no-repeat; */
   /* background-attachment: fixed; */
   margin: 0;
@@ -8,18 +9,7 @@ body{
   z-index: 45;
   font-size: 100%;
 }
-@font-face {
-  font-family: 'fp-12964';
-  src: url('depleted uranium.eot');
-  src: url('depleted uranium.eot?#iefix') format('embedded-opentype'),
-       url('depleted uranium.woff') format('woff'),
-       url('depleted uranium.ttf') format('truetype'),
-       url('depleted uranium.svg#fp-12964') format('svg');
-}
 
-.fontpro,.fontpro-12964 {
-  font-family: 'fp-12964',sans-serif;
-}
 .menu-icon{
   position: relative;
 }
@@ -39,15 +29,15 @@ body{
   color: #fdf0f6;
   font-size: 10em;
   padding: 40px;
-  padding-top : 170px;
+  padding-top : 150px;
   text-align: center;
 }
 @media only screen and (max-width: 500px){
 
  .header h1{
-  font-size: 5.5em !important;
+  font-size: 4.3em !important;
   font-family: 'fp-12964',sans-serif;
-
+  margin-right: 30px;
  }
 
  .image1{
@@ -68,3 +58,4 @@ body{
 .carousel-inner > .item {
   height: 200px;
 }
+

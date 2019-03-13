@@ -2,28 +2,42 @@ body{
     background-image: url('../images/1.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*background-color: #010101;*/
-    box-sizing: border-box;
+    background-size : cover;
     margin: 0;
     text-align: center;
     font-size: 100%;
+    font-family:verdana;
   }
-  
- #circle{
-    border-radius: 45%;
+  .team img{
+    width:180px;
+    border-radius: 100%;
     box-sizing: border-box;
-  } 
-  img{
-      vertical-align: middle;
-      
+    vertical-align: middle;
+    border : 2px solid beige;
+    box-shadow: 0px 0px 10px black;
   }
-  .column {
+  .team h2{
+    font-size: 30px;
+    color: aliceblue;
+  }
+
+  .team h3{
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  .col-md-4{
+    padding : 10px;
+   
+  }
+
+  /* .column {
     float: left;
     width: 33.33%;
     padding: 5px;
-  }
+  } */
   
-  /* Clearfix (clear floats) */
+  /* Clearfix (clear floats)
   .row::after {
     content: "";
     clear: both;
@@ -52,7 +66,7 @@ body{
      background: linear-gradient(to right, #352020 35%, #da4545 100%);
      /*margin-bottom: 40px;
      padding: 15px 25px 0 40px;*/
-     color:white;
+     /* color:white;
      box-shadow: 1px 2px 1px -1px #777;
      transition: background 200ms ease-in-out;
      margin-bottom: 15px;
@@ -127,7 +141,7 @@ body{
      margin: auto;
      padding-left: 2%;
      padding-right: 2%;*/
-   }
+   /* }
    #resp_divstyle{
      font-family: 'Emilys Candy';
    }
@@ -162,8 +176,8 @@ body{
        max-height: 200px;
      }
    }
-   @media screen and (min-width: 451px){
-     body{
+   /* @media screen and (min-width: 451px){ */
+     /* body{
          background-size:cover;
      }
      .header h1, #tour h2{
@@ -189,7 +203,5 @@ body{
        height: auto;
      }
   
-   }
+   } */
   
-
-   
