@@ -25,6 +25,9 @@ app.get('/appathonDetails',(req,res)=>{
 app.get('/team',(req,res)=>{
     res.sendFile(__dirname + '/public/Team.html');
 });
+app.get('/sponsors',(req,res)=>{
+    res.sendFile(__dirname + '/public/sponsors.html');
+});
 
 
 app.listen(3000,()=>{
