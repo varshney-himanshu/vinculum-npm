@@ -30,7 +30,7 @@ body{
     display: table;
   }
     *, div *, h1 *, a *,p *,span *{
-     font-family: 'Emilys Candy';
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
   
    .w3-white{
