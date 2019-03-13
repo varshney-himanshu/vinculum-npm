@@ -9,21 +9,18 @@ body{
   font-size: 100%;
 }
 .head1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #f1f1f1;
 }
-.para1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  align-content: left;
+.head2{
+  color:  #f1f1f1;
 }
-.a1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #309286;
+.head3{
+  color:  #f1f1f1;
 }
-.a2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #309286;
+.head4{
+  color: #f1f1f1;
 }
+
   .header1 {
     margin: 0 px;
     background-color: #dcb5ff;
