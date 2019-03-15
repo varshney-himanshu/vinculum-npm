@@ -12,18 +12,37 @@ body{
 #header{
     text-align: center;
     padding-top: 40px;
+    color : beige !important;
   }
 
+
 #college{
-    position: relative;
-    top: 50px;
-    right: 8px;
+    margin-left : 3%;
+    margin-top : 7%;
+    border : 2px solid beige;
+    box-shadow: 0px 0px 10px black;
   }
+
 .tex{
   text-align: justify;
   font-size: 20px;
-  position: relative;
-  right: 40px;
-  top: 60px;
+  padding-top: 10%;
+  margin-right : 50px; 
   color: white;
+}
+
+@media only screen and (max-width : 500px){
+  #header{
+    font-size : 4em !important;
+  }
+  #college{
+    width : 80% !important;
+  }
+  iframe{
+    width: 90%;
+  }
+  .tex{
+    margin-right: 0px;
+    padding : 6%;
+  }
 }
