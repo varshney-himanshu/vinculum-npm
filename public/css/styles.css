@@ -19,17 +19,45 @@ body{
   margin: 0 px;
   height: 600px;
   width : 100%;
+ 
+}
+.header p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0;
+  letter-spacing: 1px;
+  color: #fdf0f6;
+  font-size: 1.5em;
   text-align: center;
 }
-
-.header h1{
+.header img{
+  height: 120px;
+  width: 120px;
+}
+.header h2{
   font-family: 'fp-12964',sans-serif;
   margin-top: 0;
   letter-spacing: 3px;
   color: #fdf0f6;
-  font-size: 10em;
-  padding: 40px;
-  padding-top : 150px;
+  font-size: 6em;
+  padding: 20px;
+  padding-top : 10px;
+  text-align: center;
+}
+.header h3{
+  font-family: 'fp-12964',sans-serif;
+  margin-top: 0;
+  letter-spacing: 3px;
+  color: #fdf0f6;
+  font-size: 9em;
+  padding-top : 60px;
+  text-align: center;
+}
+.header h4{
+  font-family: 'fp-12964',sans-serif;
+  margin-top: 0;
+  letter-spacing: 3px;
+  color: #fdf0f6;
+  font-size: 3em;
   text-align: center;
 }
 

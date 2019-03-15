@@ -21,7 +21,12 @@ body{
   color: #f1f1f1;
 }
 
-
+.appathon h5{
+  color: rgb(48, 122, 233);
+}
+.codecoaster h5{
+  color: #309256;
+}
   .header1 {
     margin: 0 px;
     background-color: #dcb5ff;
